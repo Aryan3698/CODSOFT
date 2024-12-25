@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        /* Reset and Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header .logo h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header .logo p {
+            font-size: 1.2rem;
+        }
+
+        /* Main Content Styling */
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        /* Section Headers */
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        /* Menu Item Styling */
+        .menu-item {
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+
+        .item-details h3 {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+
+        .item-details p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #777;
+        }
+
+        .item-details span {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer a {
+            color: #f4a261;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Fusion Feast</h1>
+            <p>Your fine dining experience</p>
+        </div>
+    </header>
+    
+    <main>
+        <section id="appetizers">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <div class="item-details">
+                    <h3>Bruschetta</h3>
+                    <p>Grilled bread with tomato, garlic, and basil.</p>
+                    <span>₹600</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="item-details">
+                    <h3>Spring Rolls</h3>
+                    <p>Vegetable spring rolls served with dipping sauce.</p>
+                    <span>₹500</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="mains">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <div class="item-details">
+                    <h3>Grilled Salmon</h3>
+                    <p>Fresh salmon fillet, grilled to perfection.</p>
+                    <span>₹1,500</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="item-details">
+                    <h3>Vegan Lasagna</h3>
+                    <p>A healthy, plant-based version of the classic dish.</p>
+                    <span>₹1,200</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <div class="item-details">
+                    <h3>Chocolate Cake</h3>
+                    <p>Rich and decadent chocolate cake with cream.</p>
+                    <span>₹450</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="item-details">
+                    <h3>Lemon Sorbet</h3>
+                    <p>A refreshing, tangy dessert perfect for summer.</p>
+                    <span>₹400</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <div class="menu-item">
+                <div class="item-details">
+                    <h3>Iced Tea</h3>
+                    <p>Freshly brewed iced tea served cold.</p>
+                    <span>₹200</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="item-details">
+                    <h3>Wine Selection</h3>
+                    <p>A curated selection of red and white wines.</p>
+                    <span>₹900</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Contact us: (555) 123-4567 | <a href="mailto:info@fusionfeast.com">info@fusionfeast.com</a></p>
+    </footer>
+</body>
+</html>
+
+
